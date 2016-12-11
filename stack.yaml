@@ -1,0 +1,15 @@
+resolver: lts-7.12
+
+packages:
+- '.'
+- location:
+    git: git@github.com:bitemyapp/network-api-support.git
+    commit: 64144d9da733897e02e6669b88a8367634d7644d
+  extra-dep: true
+
+extra-deps:
+  - postmark-0.1.1
+
+flags: {}
+
+extra-package-dbs: []
